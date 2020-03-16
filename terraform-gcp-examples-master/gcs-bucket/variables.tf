@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "project-name" {
-  default = "gsoc-172407"
+  default = "project-01-248506"
 }
 
 variable "location" {

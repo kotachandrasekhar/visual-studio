@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "tasdikrahman-terraform-state" {
-  name          = "tasdikrahman-terraform-state"
-  location      = "${var.location}"
-  force 
+  name          = "tasdikrahman-ter"
+  location      = var.location
 }
+
